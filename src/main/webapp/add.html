@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie list</title>
+
+
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="add.html" class="active">Voeg Toe</a></li>
+                <li><a href="view.html">Overzicht</a></li>
+            </ul>
+
+
+        </nav>
+    </header>
+    <img src="fotos/image%20(1).png" alt="" class="index-banner">
+    <h1 class="text-center">Voeg jouw film toe</h1>
+    <section class="form-grid">
+
+        <form class="voegform">
+            <label for="Titel">Titel:</label>
+            <input id="Titel" type="text">
+            <label for="Looptijd">Looptijd:</label>
+            <input id="Looptijd" type="text" placeholder="In minuten">
+            <label for="Datum">Datum bekeken:</label>
+            <input id="Datum" type="date">
+        </form>
+        <div class="plaats">
+            <form action="view.html">
+                <input type="submit" value="Voeg toe" class="input-form">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Film Lijst</p>
+        <p>© Bryan Van Winnendael
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

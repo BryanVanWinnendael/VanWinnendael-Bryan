@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie list</title>
+
+
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="add.html">Voeg Toe</a></li>
+                <li><a href="view.html" class="active">Overzicht</a></li>
+            </ul>
+
+
+        </nav>
+    </header>
+    <img src="fotos/image%20(1).png" alt="" class="index-banner">
+    <h1 class="text-center">Bekeken Films</h1>
+
+    <div class="filter">
+        <form>
+            <label for="filter">Filter:</label>
+            <select id="filter" name="filter">
+                <option value="titel">Titel</option>
+                <option value="looptijd">Looptijd</option>
+                <option value="datum">Datum</option>
+            </select>
+        </form>
+    </div>
+
+    <div class="table-middle">
+
+        <table>
+            <tr>
+                <th>Titel</th>
+                <th>Looptijd</th>
+                <th>Datum bekeken</th>
+                <th></th>
+                <th></th>
+
+            </tr>
+            <tr>
+                <td>Joker</td>
+                <td>122 min</td>
+                <td>2/12/2020</td>
+                <td><a href="">Verwijder</a></td>
+                <td><a href="">Edit</a></td>
+            </tr>
+            <tr>
+                <td>Now You see me 2</td>
+                <td>130 min</td>
+                <td>28/03/2019</td>
+                <td><a href="">Verwijder</a></td>
+                <td><a href="">Edit</a></td>
+            </tr>
+
+            <tr>
+                <td>The Midnight Sky</td>
+                <td>122 min</td>
+                <td>28/03/2019</td>
+                <td><a href="">Verwijder</a></td>
+                <td><a href="">Edit</a></td>
+            </tr>
+            <tr>
+                <td>The Martian </td>
+                <td>151 min</td>
+                <td>15/08/2017</td>
+                <td><a href="">Verwijder</a></td>
+                <td><a href="">Edit</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <p>Film Lijst</p>
+        <p>© Bryan Van Winnendael
+        </p>
+
+    </footer>
+</body>
+
+</html>
